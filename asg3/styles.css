@@ -1,0 +1,10 @@
+h1,h2 {
+	font-family: "New Rocker", system-ui;
+  	font-weight: 800;
+  	font-style: normal;
+
+p {
+	font-family: "Kalam", cursive;
+  	font-weight: 600;
+  	font-style: normal;
+}
