@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dinner Invitation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Dinner Invitation</h1>
+      <p class="lead">I've invited three special guests—Robert Oppenheimer, Albert Einstein, and Elon Musk—to discuss science, ethics, and the future.</p>
+    </header>
+  
+    <section class="card">
+      <div class="card-inner">
+        <h2>Guests</h2>
+        <div class="guests">
+          
+          <article>
+            <figure>
+              <img class="avatar" src="img/Oppenheimer.avif" alt="J. Robert Oppenheimer portrait" />
+              <figcaption>J. Robert Oppenheimer</figcaption>
+            </figure>
+            <p>J. Robert Oppenheimer was a theoretical physicist who coordinated the Manhattan Project at Los Alamos. I invited him because he offers a unique and insightful perspective on how technology is changing the world and the ethical boundaries of scientists.</p>
+          </article>
+
+          
+          <article>
+            <figure>
+              <img class="avatar" src="img/Albert_Einstein.jpg" alt="Albert Einstein portrait" />
+              <figcaption>Albert Einstein</figcaption>
+            </figure>
+            <p>Einstein, who developed the theory of relativity, is one of the most influential scientists of the 20th century. I invited him because he represents the imagination of physics and often reminds us to examine the significance of science with humanistic care.</p>
+          </article>
+          
+          <article>
+            <figure>
+              <img class="avatar" src="img/Elon_Musk.jpg" alt="Elon Musk (2015)" />
+              <figcaption>Elon Musk</figcaption>
+            </figure>
+            <p>Elon Musk is an entrepreneur who is driving the adoption of commercial spaceflight and electric vehicles. I invited him to the table hoping to connect the perspectives of "science and industry implementation" with the thoughts of two theoretical giants.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+   
+    <section class="card" style="margin-top:18px;">
+      <div class="card-inner">
+        <h2>Menu</h2>
+        <ul class="menu">
+          <li><strong>Appetizers: </strong> Truffle Mushroom Bruschetta, Orange Beet Salad</li>
+          <li><strong>Main Course: </strong> Seared Salmon with Lemon Butter / Plant-Based Red Wine Ragu (optional)</li>
+          <li><strong>Dessert: </strong> Dark Chocolate Lava Cake, Seasonal Fruit Sorbet</li>
+          <li><strong>Drinks: </strong> Sparkling Water, Cold Brew Tea, Coffee</li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="card" style="margin-top:18px;">
+      <div class="card-inner">
+        <h2>RSVP</h2>
+        <form>
+          <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Please enter your name" required>
+          </div>
+
+          <fieldset>
+            <legend>Will you be bringing a guest</legend>
+            <div class="radios" role="radiogroup" aria-labelledby="plusone">
+              <label><input type="radio" name="plusone" value="yes" required> Yes</label>
+              <label><input type="radio" name="plusone" value="no"> No</label>
+            </div>
+          </fieldset>
+
+          <div>
+            <label for="diet">Dietary preferences (e.g., vegetarian, halal, nut-free, etc.) </label>
+          <textarea id="diet" name="diet" placeholder="Please fill in any dietary restrictions or preferences"></textarea>
+          </div>
+
+          <div>
+            <button class="submit" type="submit">Submit RSVP</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>
