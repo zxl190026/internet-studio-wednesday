@@ -1,0 +1,84 @@
+
+    html {
+      background-image: url('img/beige-tiles.png'); 
+      background-repeat: repeat;
+      background-size: 420px; 
+      background-attachment: fixed;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Yrsa", serif;
+      font-size: 16px;              
+      line-height: 1.75;            
+      color: #228B22;
+    }
+
+    .container {
+      max-width: 920px;
+      width: 92%;                   
+      margin: 4rem auto;            
+      background: #D8BFD8;
+      backdrop-filter: blur(2px);
+      box-shadow: 0 8px 24px rgba(0,0,0,.12);
+      border-radius: radius: 14px;
+      padding: 2.25rem 2rem 2.5rem;
+      border: 1px solid rgba(0,0,0,.06);
+    }
+
+    h1, h2, h3 {
+      font-family: "Funnel Sans", sans-serif;
+      line-height: 1.25;
+      margin: 0 0 0.6em;
+      color: #228B22;
+    }
+
+    h1 {
+      font-size: 2.4em;             
+      color: #2F4F4F;
+      letter-spacing: 0.02em;
+      text-shadow: 0 1px 0 rgba(255,255,255,.4);
+    }
+
+    h2 {
+      font-size: 1.6em;             
+      color: #228B22;
+      margin-top: 1.8em;
+      border-left: 6px solid;
+      padding-left: .6em;
+    }
+
+    h3 {
+      font-size: 1.15em;            
+      color: #228B22;
+      text-transform: none;
+      margin-top: 1.6em;
+    }
+
+    p {
+      font-size: 1em;              
+      color: #A0522D;
+      margin: 0 0 1.1em;
+    }
+
+
+    .hat-img {
+      float: right;                 
+      width: 180px;                 
+      max-width: 45%;
+      height: auto;
+      margin: 0 0 0.6rem 1rem;      
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0,0,0,.12);
+    }
+
+
+
+  
+
+
+
+
+
+
