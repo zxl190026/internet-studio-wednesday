@@ -1,0 +1,125 @@
+/* 
+      .--..--..--..--..--..--.
+    .' \  (`._   (_)     _   \
+  .'    |  '._)         (_)  |
+  \ _.')\      .----..---.   /
+  |(_.'  |    /    .-\-.  \  |
+  \     0|    |   ( O| O) | o|
+   |  _  |  .--.____.'._.-.  |
+   \ (_) | o         -` .-`  |
+    |    \   |`-._ _ _ _ _\ /
+    \    |   |  `. |_||_|   |
+    | o  |    \_      \     |     -.   .-.
+    |.-.  \     `--..-'   O |     `.`-' .'
+  _.'  .' |     `-.-'      /-.__   ' .-'
+.' `-.` '.|='=.='=.='=.='=|._/_ `-'.'
+`-._  `.  |________/\_____|    `-.'
+   .'   ).| '=' '='\/ '=' |
+   `._.`  '---------------'
+           //___\   //___\
+             ||       ||
+             ||_.-.   ||_.-.
+            (_.--__) (_.--__)
+       
+
+ Insert all your glorious CSS styles below! */
+
+
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Abyssinica SIL';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/abyssinica-sil-v9-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/alegreya-sans-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+header{
+      padding:2.5rem 1rem;
+      text-align:center;
+      background:linear-gradient(180deg, rgba(124,197,255,.12), transparent);
+      border-bottom:1px solid rgba(255,255,255,.08);
+    }
+
+body{
+      margin:0;
+      background: #2F4F4F;
+      color:#eaf1fb;
+      font-family:'Abyssinica SIL';
+      line-height:1.75;
+    }
+
+h1, h2, h3 {
+    font-family: 'Abyssinica SIL';
+    color: #FFFFF0;
+}
+
+p {
+    font-family: 'Alegreya Sans';
+    color: #F5DEB3;
+}
+
+.container{
+      max-width:1100px;
+      margin:0 auto;
+      padding:1.25rem;
+      display:grid;
+      grid-template-columns:1fr;
+      gap:1.25rem;
+    }
+
+    @media (min-width: 900px){
+      .container{ 
+        grid-template-columns:2fr 1fr; 
+        }
+    }
+
+.card{
+      background: #2F4F4F;
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:8px;
+      padding:1.25rem;
+      
+    }
+
+.hero{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:1rem;
+      align-items:center;
+    }
+
+.hero img, .mate img{
+      width:100%;
+      border-radius:5px;
+      border:1px solid rgba(255,255,255,.1);
+      display:block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
