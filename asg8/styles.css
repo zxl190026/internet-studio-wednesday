@@ -1,0 +1,118 @@
+/* 
+      .--..--..--..--..--..--.
+    .' \  (`._   (_)     _   \
+  .'    |  '._)         (_)  |
+  \ _.')\      .----..---.   /
+  |(_.'  |    /    .-\-.  \  |
+  \     0|    |   ( O| O) | o|
+   |  _  |  .--.____.'._.-.  |
+   \ (_) | o         -` .-`  |
+    |    \   |`-._ _ _ _ _\ /
+    \    |   |  `. |_||_|   |
+    | o  |    \_      \     |     -.   .-.
+    |.-.  \     `--..-'   O |     `.`-' .'
+  _.'  .' |     `-.-'      /-.__   ' .-'
+.' `-.` '.|='=.='=.='=.='=|._/_ `-'.'
+`-._  `.  |________/\_____|    `-.'
+   .'   ).| '=' '='\/ '=' |
+   `._.`  '---------------'
+           //___\   //___\
+             ||       ||
+             ||_.-.   ||_.-.
+            (_.--__) (_.--__)
+       
+
+ Insert all your glorious CSS styles below! */
+
+
+
+
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Chiron GoRound TC';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/chiron-goround-tc-v2-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Average Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/average-sans-v17-latin-regular.woff2') format('woff2'); 
+}
+
+
+@font-face{
+      font-family:'Montserrat';
+      font-style:normal;
+      font-weight:700;
+      src:url('fonts/montserrat-v25-latin-700.woff2') format('woff2'),
+          url('fonts/montserrat-v25-latin-700.woff') format('woff');
+      font-display:swap;
+    }
+@font-face{
+      font-family:'NotoSerifSC';
+      font-style:normal;
+      font-weight:400;
+      src:url('fonts/noto-serif-sc-v12-chinese-simplified-regular.woff2') format('woff2'),
+          url('fonts/noto-serif-sc-v12-chinese-simplified-regular.woff') format('woff');
+      font-display:swap;
+    }
+
+
+
+* { 
+    box-sizing: border-box; 
+}
+
+html, body {
+  height: 100%;
+  background: url("img/background.jpg") center/cover fixed no-repeat;
+  color: #e5e7eb;
+  margin: 0;
+  font-family: 'Average Sans';
+  font-size: clamp(1.00rem, 0.95rem + 0.35vw, 1.125rem);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: clamp(1rem, 2vw, 2rem);
+}
+
+h1, h2, h3 {
+  font-family: 'Chiron GoRound TC';
+  line-height: 1.2;
+  margin: 0.8em 0 0.4em;
+  letter-spacing: 0.2px;
+}
+
+h1 { 
+    font-size: clamp(1.95rem, 1.50rem + 2.6vw, 2.60rem); 
+    color: #EBB3A9; 
+}
+
+h2 { 
+    font-size: clamp(1.56rem, 1.30rem + 1.6vw, 2.00rem); 
+    color: #4E5166; 
+}
+
+p { 
+    color: #F5D5ED; 
+}
+
+
+.domain-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.6rem;
+}
+
+
